@@ -9,7 +9,7 @@ import {
   UPDATE_CURRENT_CATEGORY,
   CLEAR_CART,
   TOGGLE_CART,
-} from './actions';
+} from "./actions";
 
 const initialState = {
   products: [],
@@ -92,4 +92,5 @@ export const reducers = (state = initialState, action) => {
       return state;
   }
 };
+
 export default reducers;
